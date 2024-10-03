@@ -12,9 +12,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - [2182](https://github.com/FuelLabs/fuel-core/pull/2151): Limit number of transactions that can be fetched via TxSource::next
 - [2189](https://github.com/FuelLabs/fuel-core/pull/2151): Select next DA height to never include more than u16::MAX -1 transactions from L1.
 
-
 ### Changed
 - [2233]((https://github.com/FuelLabs/fuel-core/pull/2233): New changes to HistoricalRocksDB are written to ModificationsHistoryV2
+- [2260](https://github.com/FuelLabs/fuel-core/pull/2260): Modification History is migrated from V1 to V2 on startup.
 
 #### Breaking
 - [2206](https://github.com/FuelLabs/fuel-core/pull/2206): Use timestamp of last block when dry running transactions.
